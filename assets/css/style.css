@@ -4,3 +4,18 @@
     margin-top: 1.5em;
     max-width: 200px;
 }
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
