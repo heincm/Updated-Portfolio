@@ -22,8 +22,12 @@ main {
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(255, 255, 255);
 }
+
+.nav, .footer{
+    background-color: rgb(2,119,181);
+  }
 
 p {
   line-height: 2rem;
