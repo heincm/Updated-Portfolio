@@ -74,3 +74,7 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+#mainHeader{
+  color: rgb(2,119,181);
+}
