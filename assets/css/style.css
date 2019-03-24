@@ -12,6 +12,13 @@
   margin-bottom: 1.5em;
 }
 
+.miniLogo {
+  max-width: 45px;
+  height: auto;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 body {
   display: flex;
   min-height: 100vh;
