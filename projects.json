@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Word Guess Game",
+        "description": "This is my first project using vanilla Javascript.",
+        "img": "../Updated-Portfolio/assets/images/hangman.png",
+        "github": "https://github.com/heincm/Word-Guess-Game",
+        "link": "https://heincm.github.io/Word-Guess-Game/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "Crystal Game",
+        "description": "This project is my first project using jQuery.",
+        "img": "../Updated-Portfolio/assets/images/Crystal_game.png",
+        "github": "https://github.com/heincm/crystal-game",
+        "link": "https://heincm.github.io/crystal-game/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "jQuery",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "GifTastic",
+        "description": "This project is my first project using an API and local storage.",
+        "img": "../Updated-Portfolio/assets/images/GifTastic.png",
+        "github": "https://github.com/heincm/GifTastic",
+        "link": "https://heincm.github.io/GifTastic/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "jQuery",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "Train Time",
+        "description": "This is my first project utilizing the Google Firebase database.",
+        "img": "../Updated-Portfolio/assets/images/train.png",
+        "github": "https://github.com/heincm/Train-Time",
+        "link": "https://heincm.github.io/Train-Time/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap",
+            "Firebase"
+        ]
+    },
+    {
+        "title": "What's Happening?",
+        "description": "This was a group project utilizing multiple APIs, authentication, geolocation, a database and local storage.",
+        "img": "../Updated-Portfolio/assets/images/slice1.png",
+        "github": "https://github.com/heincm/whats-happenin",
+        "link": "https://heincm.github.io/whats-happenin/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "jQuery",
+            "Bootstrap",
+            "Firebase",
+            "Materialize"
+        ]
+    },
+    {
+        "title": "Marvel Trivia",
+        "description": "Trivia game made with jQuery, HTML and CSS.",
+        "img": "../Updated-Portfolio/assets/images/Trivia.png",
+        "github": "https://github.com/heincm/TriviaGame",
+        "link": "https://heincm.github.io/TriviaGame/",
+        "technologies": [
+            "HTML5",
+            "CSS3",
+            "jQuery",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "LIRI",
+        "description": "A CLI app that makes API various API calls.",
+        "img": "../Updated-Portfolio/assets/images/Liri.png",
+        "github": "https://github.com/heincm/LIRI",
+        "link": "https://drive.google.com/file/d/1iE29KVr3TUbnbvFSAdUO6Y-pVqNuKq5B/view?usp=sharing",
+        "technologies": [
+            "nodeJS"
+        ]
+    },
+    {
+        "title": "Storefront",
+        "description": "A CLI storefront application that can be used to purchase, restock, and add inventory to a SQL database.",
+        "img": "../Updated-Portfolio/assets/images/Storefront.png",
+        "github": "https://github.com/heincm/storefront",
+        "link": "https://drive.google.com/file/d/1QBb4oLxEPZ4cPszPmb46h198Dy9-CY33/view?usp=sharing",
+        "technologies": [
+            "nodeJS",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Constructor-Word-Guess-2",
+        "description": "Build your own word guessing game by utilizing this npm project.",
+        "img": "../Updated-Portfolio/assets/images/constructor-word-guess-2.gif",
+        "github": "https://github.com/heincm/constructor-word-guess-2",
+        "link": "https://drive.google.com/file/d/1QBb4oLxEPZ4cPszPmb46h198Dy9-CY33/view?usp=sharing",
+        "technologies": [
+            "nodeJS"
+        ]
+    },
+    {
+        "title": "Burgerlogger",
+        "description": "Makes use of a server and handlebars as well as get, post, and put methods with a SQL database and ORM.",
+        "img": "../Updated-Portfolio/assets/images/burgerlogger.gif",
+        "github": "https://github.com/heincm/burglogger",
+        "link": "https://burgerlogger1.herokuapp.com/",
+        "technologies": [
+            "nodeJS",
+            "MySQL",
+            "Handlebars",
+            "Expressjs"
+        ]
+    },
+    {
+        "title": "Friendfinder",
+        "description": "Use of an express, server and routing for a basic friend finding app.",
+        "img": "../Updated-Portfolio/assets/images/friendfinder.gif",
+        "github": "https://github.com/heincm/burglogger",
+        "link": "https://shielded-coast-44459.herokuapp.com/",
+        "technologies": [
+            "nodeJS",
+            "Expressjs",
+            "HTML5",
+            "CSS3",
+            "Bootstrap",
+            "jQuery"
+        ]
+    }
+]
