@@ -31,18 +31,12 @@ app.post('/email', (req, res) => {
 app.get(('/'), (req, res)=> {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
-app.get('/contact', (req, res)=> {
-    res.sendFile(path.join(__dirname, 'views', 'contact.html'));
+
+app.get('/:whatevs', (req, res)=> {
+    let route=req.params.whatevs
+    res.sendFile(path.join(__dirname, 'views', `${route}.html`));
 });
-app.get('/hireme', (req, res)=> {
-    res.sendFile(path.join(__dirname, 'views', 'hireme.html'));
-});
-app.get('/languages', (req, res)=> {
-    res.sendFile(path.join(__dirname, 'views', 'languages.html'));
-});
-app.get('/portfolio', (req, res)=> {
-    res.sendFile(path.join(__dirname, 'views', 'portfolio.html'));
-});
+
 app.get(('/*'), (req, res)=> {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
