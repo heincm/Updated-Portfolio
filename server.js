@@ -1,5 +1,5 @@
 const express = require('express');
-const app  = express();
+const app = express();
 const path = require('path')
 const sendMail = require('./mail')
 
@@ -16,31 +16,30 @@ app.use(express.static(path.join(__dirname, "assets")));
 
 app.post('/email', (req, res) => {
     //send email
-    const {subject, email, text } = req.body
-    console.log(req.body)
-    sendMail(email, subject, text, function (err, data){
+    const { subject, email, text } = req.body
+
+    sendMail(email, subject, text, function (err, data) {
         if (err) {
-            res.status(500).json({ message: "internal error"})
+            res.status(500).json({ message: "internal error" })
         } else {
-             console.log('Email sent!')
+            res.status(200).json({ message: 'Message received!' });
         }
     });
-    res.json({message: 'Message received!'})
 })
 
-app.get(('/'), (req, res)=> {
+app.get(('/'), (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-app.get('/:whatevs', (req, res)=> {
-    let route=req.params.whatevs
+app.get('/:whatevs', (req, res) => {
+    let route = req.params.whatevs
     res.sendFile(path.join(__dirname, 'views', `${route}.html`));
 });
 
-app.get(('/*'), (req, res)=> {
+app.get(('/*'), (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-app.listen(PORT,  () => {
+app.listen(PORT, () => {
     console.log('Server is listening on Port ', PORT)
 })
