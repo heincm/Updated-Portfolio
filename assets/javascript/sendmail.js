@@ -11,7 +11,7 @@ $('form').on('submit', (event) => {
     const data = {
         email, 
         subject, 
-        text
+        text: "First Name: " + $('#first_name').val().trim() + "\nLast Name: " + $('#last_name').val().trim() + "\nMessage:\n" + text
     };
 
     $.post('/email', data, function(){
