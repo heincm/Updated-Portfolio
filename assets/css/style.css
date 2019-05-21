@@ -8,7 +8,7 @@
 .logo {
   max-width: 200px;
   height: auto;
-  margin-right: 2em;
+  margin-right: 1em;
   margin-bottom: 1.5em;
 }
 
@@ -31,6 +31,10 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+.contact-container{
+  margin-top: 3em
 }
 
 nav ul a,
