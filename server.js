@@ -31,8 +31,8 @@ app.get(('/'), (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
-app.get('/:whatevs', (req, res) => {
-    let route = req.params.whatevs
+app.get('/:any', (req, res) => {
+    let route = req.params.any
     res.sendFile(path.join(__dirname, 'views', `${route}.html`));
 });
 
