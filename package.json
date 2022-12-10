@@ -20,7 +20,7 @@
   "homepage": "https://github.com/heincm/Updated-Portfolio#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "nodemailer": "^6.1.1",
     "nodemailer-mailgun-transport": "^1.4.0",
     "nodemon": "^1.19.0"
